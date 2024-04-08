@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/one"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_job"
+            android:icon="@drawable/two"
+            android:title="Jobs" />
+        <item
+            android:id="@+id/nav_startup"
+            android:icon="@drawable/three"
+            android:title="Startups" />
+
+        <item
+            android:id="@+id/nav_community"
+            android:icon="@drawable/four"
+            android:title="Communities" />
+
+        <item
+            android:id="@+id/nav_upcomingevents"
+            android:icon="@drawable/five"
+            android:title="Upcoming Events" />
+
+        <item
+            android:id="@+id/nav_resourcesCenter"
+            android:icon="@drawable/six"
+            android:title="Resources Center" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/seven"
+            android:title="Setting" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/eight"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/nine"
+            android:title="Logout" />
+
+    </group>
+</menu>
